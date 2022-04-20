@@ -3,7 +3,6 @@
 trait_cyro_double_jointed = {
     cost = 2
     icon = "gfx/interface/icons/traits/trait_robot_double_jointed.dds"
-	opposites = { "trait_cyro_bulky" }
 
     initial = no
     randomized = no
