@@ -1,0 +1,234 @@
+# tech_cyro_modding
+
+trait_cyro_double_jointed = {
+    cost = 2
+    icon = "gfx/interface/icons/traits/trait_robot_double_jointed.dds"
+	opposites = { "trait_cyro_bulky" }
+
+    initial = no
+    randomized = no
+
+    species_potential_add = {
+        has_trait = trait_cybernetic
+        from = {
+            has_technology = tech_cyro_modding
+        }
+    }
+
+    species_possible_merge_add = {
+        has_trait = trait_cybernetic
+    }
+
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		pop_housing_usage_mult = -0.1
+	}
+}
+
+trait_cyro_efficient_processors = {
+    cost = 3
+    icon = "gfx/interface/icons/traits/trait_robot_efficient_processors.dds"
+
+    initial = no
+    randomized = no
+
+    species_potential_add = {
+        has_trait = trait_cybernetic
+        from = {
+            has_technology = tech_cyro_modding
+        }
+    }
+
+    species_possible_merge_add = {
+        has_trait = trait_cybernetic
+    }
+
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		planet_jobs_produces_mult = 0.05
+	}
+}
+
+trait_cyro_harvesters = {
+	cost = 2
+    icon = "gfx/interface/icons/traits/trait_robot_harvesters.dds"
+
+    initial = no
+    randomized = no
+
+    species_potential_add = {
+        has_trait = trait_cybernetic
+        from = {
+            has_technology = tech_cyro_modding
+        }
+    }
+
+    species_possible_merge_add = {
+        has_trait = trait_cybernetic
+    }
+
+    allowed_archetypes = { BIOLOGICAL LITHOID }
+    
+	modifier = {
+		planet_jobs_food_produces_mult = 0.1
+	}
+}
+
+trait_cyro_power_drills = {
+	cost = 2
+    icon = "gfx/interface/icons/traits/trait_robot_power_drills.dds"
+
+    initial = no
+    randomized = no
+
+    species_potential_add = {
+        has_trait = trait_cybernetic
+        from = {
+            has_technology = tech_cyro_modding
+        }
+    }
+
+    species_possible_merge_add = {
+        has_trait = trait_cybernetic
+    }
+
+    allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		planet_jobs_minerals_produces_mult = 0.1
+	}
+}
+
+trait_cyro_superconductive = {
+	cost = 2
+    icon = "gfx/interface/icons/traits/trait_robot_superconductive.dds"
+
+    initial = no
+    randomized = no
+
+    species_potential_add = {
+        has_trait = trait_cybernetic
+        from = {
+            has_technology = tech_cyro_modding
+        }
+    }
+
+    species_possible_merge_add = {
+        has_trait = trait_cybernetic
+    }
+
+    allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		planet_jobs_energy_produces_mult = 0.1
+	}
+}
+
+# tech_cyro_biocircuitry
+
+trait_cyro_enhanced_memory = {
+	cost = 2
+    icon = "gfx/interface/icons/traits/trait_robot_enhanced_memory.dds"
+
+    initial = no
+    randomized = no
+
+    species_potential_add = {
+        has_trait = trait_cybernetic
+        from = {
+            has_technology = tech_cyro_biocircuitry
+        }
+    }
+
+    species_possible_merge_add = {
+        has_trait = trait_cybernetic
+    }
+
+    allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		leader_skill_levels = 1
+	}
+	ai_weight = {
+		factor = 0
+	}
+}
+
+trait_cyro_learning_algorithms = {
+    cost = 1
+    icon = "gfx/interface/icons/traits/trait_robot_learning_algorithms.dds"
+
+    initial = no
+    randomized = no
+
+    species_potential_add = {
+        has_trait = trait_cybernetic
+        from = {
+            has_technology = tech_cyro_biocircuitry
+        }
+    }
+
+    species_possible_merge_add = {
+        has_trait = trait_cybernetic
+    }
+
+    allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		species_leader_exp_gain = 0.1
+	}
+}
+
+trait_cyro_logic_engines = {
+	cost = 3
+    icon = "gfx/interface/icons/traits/trait_robot_logic_engines.dds"
+
+    initial = no
+    randomized = no
+
+    species_potential_add = {
+        has_trait = trait_cybernetic
+        from = {
+            has_technology = tech_cyro_biocircuitry
+        }
+    }
+
+    species_possible_merge_add = {
+        has_trait = trait_cybernetic
+    }
+
+    allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		planet_jobs_society_research_produces_mult = 0.10
+		planet_jobs_physics_research_produces_mult = 0.10
+		planet_jobs_engineering_research_produces_mult = 0.10
+	}
+}
+
+trait_cyro_loyalty_circuits = {
+	cost = 2
+    icon = "gfx/interface/icons/traits/trait_robot_loyalty_circuits.dds"
+
+    initial = no
+    randomized = no
+
+    species_potential_add = {
+        has_trait = trait_cybernetic
+        from = {
+            has_technology = tech_cyro_biocircuitry
+        }
+    }
+
+    species_possible_merge_add = {
+        has_trait = trait_cybernetic
+    }
+
+    allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		pop_happiness = 0.1
+	}
+}

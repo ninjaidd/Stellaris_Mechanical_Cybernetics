@@ -1,0 +1,42 @@
+l_english:
+
+##### TRAITS
+
+trait_cyro_double_jointed: "Double-Jointed"
+trait_cyro_double_jointed_desc: "§LCollapsible limbs and flexible joints enable this species to fold neatly into stacks when resting.§!\n"
+
+trait_cyro_efficient_processors: "Efficient Processors"
+trait_cyro_efficient_processors_desc: "§LHighly efficient processing modification increase the potential workload and endurance of all workers.§!"
+
+trait_cyro_harvesters: "Harvesters"
+trait_cyro_harvesters_desc: "§LA suite of tools, from nutrient solution diagnostics and on-site balancing to per-stalk micro-threshing, enables workers to increase produce yields.§!\n"
+
+trait_cyro_power_drills: "Power Drills"
+trait_cyro_power_drills_desc: "§LOutfit this species with a battery of power drills, and everything looks like a mineral deposit.§!\n"
+
+trait_cyro_superconductive: "Superconductive"
+trait_cyro_superconductive_desc: "§LThe use of superconductive materials in cybernetic modifications have cut energy transmission losses to zero percent.§!\n"
+
+trait_cyro_enhanced_memory: "Enhanced Memory"
+trait_cyro_enhanced_memory_desc: "§This sppecies has installed revolutionary memory enhancing bio circuitry improving their performance significantly.§!\n"
+
+trait_cyro_learning_algorithms: "Learning Algorithms"
+trait_cyro_learning_algorithms_desc: "§LSophisticated, self-learning algorithms that stimulate the rapid evolution of a this species neural clusters.§!\n"
+
+trait_cyro_logic_engines: "Logic Engines"
+trait_cyro_logic_engines_desc: "§LEfficiently navigating the increasingly complex frontiers of science requires new states, beyond the simple half-truths of ternary and quaternary logic.§!\n"
+
+trait_cyro_loyalty_circuits: "Loyalty Circuits"
+trait_cyro_loyalty_circuits_desc: "§LSpecialty biocircuitry ensure compulsive loyalty.§!\n"
+
+##### TECHNOLOGY
+
+## Engineering
+
+tech_cyro_modding: "Mechanical Integration"
+tech_cyro_modding_desc: "Robotic engineering advances allow cybernetic species to integrate mechanical components."
+
+## Society
+
+tech_cyro_biocircuitry: "Bio-Synthetic Circuitry Integration"
+tech_cyro_biocircuitry_desc: "Bio-synthetic interfacing allows cybernetic species to enhance their mental processes."
