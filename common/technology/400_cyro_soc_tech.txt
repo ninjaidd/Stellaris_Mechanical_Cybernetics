@@ -3,9 +3,17 @@ tech_cyro_biocircuitry = {
 	area = society
 	tier = 2
 	category = { biology  }
-	prerequisites = { "tech_cyro_modding" "tech_gene_tailoring" }
+	prerequisites = { "tech_cyro_cybernetic_modding" "tech_gene_tailoring" }
     weight = @tier2weight1
-    
+	
+	prereqfor_desc = {
+		hide_prereq_for_desc = component
+		custom = {
+			title = "TECH_CYRO_UNLOCK_BIOCIRCUITRY"
+		}
+	}
+
+
 	potential = {
 		NOT = { has_ethic = "ethic_gestalt_consciousness" }
 	}

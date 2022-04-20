@@ -1,4 +1,4 @@
-# tech_cyro_modding
+# tech_cyro_cybernetic_modding
 
 trait_cyro_double_jointed = {
     cost = 2
@@ -10,7 +10,7 @@ trait_cyro_double_jointed = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_cyro_modding
+            has_technology = tech_cyro_cybernetic_modding
         }
     }
 
@@ -35,7 +35,7 @@ trait_cyro_efficient_processors = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_cyro_modding
+            has_technology = tech_cyro_cybernetic_modding
         }
     }
 
@@ -60,7 +60,7 @@ trait_cyro_harvesters = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_cyro_modding
+            has_technology = tech_cyro_cybernetic_modding
         }
     }
 
@@ -85,7 +85,7 @@ trait_cyro_power_drills = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_cyro_modding
+            has_technology = tech_cyro_cybernetic_modding
         }
     }
 
@@ -110,7 +110,7 @@ trait_cyro_superconductive = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_cyro_modding
+            has_technology = tech_cyro_cybernetic_modding
         }
     }
 

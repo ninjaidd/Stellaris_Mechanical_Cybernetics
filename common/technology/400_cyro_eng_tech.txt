@@ -1,4 +1,4 @@
-tech_cyro_modding = {
+tech_cyro_cybernetic_modding = {
 	cost = @tier2cost2
 	area = engineering
 	tier = 2
@@ -6,6 +6,13 @@ tech_cyro_modding = {
 	prerequisites = { "tech_robomodding" "tech_genome_mapping" }
     weight = @tier2weight1
     
+	prereqfor_desc = {
+		hide_prereq_for_desc = component
+		custom = {
+			title = "TECH_CYRO_UNLOCK_CYBERNETIC_MODDING"
+		}
+	}
+
 	potential = {
 		NOT = { has_ethic = "ethic_gestalt_consciousness" }
 	}
