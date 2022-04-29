@@ -1,3 +1,8 @@
+#TODO weight modifiers
+#TODO ai weight
+#TODO hive and machine
+#TODO tech requirements?
+
 tech_cyro_cybernetic_modding = {
 	cost = @tier2cost2
 	area = engineering
