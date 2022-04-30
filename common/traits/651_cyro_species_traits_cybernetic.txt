@@ -1,6 +1,4 @@
-# TODO Bionic
-# TODO adjust cost?
-# TODO opposites
+# TODO test opposites
 
 ##########################################
 # Mental
