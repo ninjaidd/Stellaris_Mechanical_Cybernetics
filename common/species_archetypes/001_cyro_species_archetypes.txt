@@ -1,0 +1,5 @@
+BIONIC = {
+    inherit_trait_points_from = ROBOT
+    species_max_traits = 5
+    robotic = yes
+}

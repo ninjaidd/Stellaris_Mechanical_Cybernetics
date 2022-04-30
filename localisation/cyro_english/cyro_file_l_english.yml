@@ -6,7 +6,7 @@
 
 tech_bio_synth_interface: "Bio-Synthetic Interfacing"
 tech_bio_synth_interface_desc: ""
-# TODO tech_bio_synth_interface_UNLOCK
+tech_bio_synth_interface_UNLOCK: ""
 
 ##########################################
 ## TRAITS
