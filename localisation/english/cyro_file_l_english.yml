@@ -1,0 +1,37 @@
+﻿l_english:
+
+##########################################
+## TECHNOLOGY
+##########################################
+
+tech_bio_synth_interface: "Bio-Synthetic Interfacing"
+tech_bio_synth_interface_desc: "Advances in engineering and biology allow $trait_cybernetic$ species to integrate advanced mechanical components and enhance their cognitive processes with sythetic circuitry."
+tech_bio_synth_interface_UNLOCK: "§HUnlocks:§! Cybernetic Traits"
+
+##########################################
+## TRAITS
+##########################################
+
+trait_cybernetic_emotional: "Emotional Regulator Implant"
+trait_cybernetic_emotional_desc: "Emotional regulator implants dampen the severity of complex emotions and provide a baseline of contentment."
+
+trait_cybernetic_neural: "Neural Amplification Implant"
+trait_cybernetic_neural_desc: "Neural applification implants complement and enhance biological cognitive functions."
+
+trait_cybernetic_industrial: "Industrial Framework"
+trait_cybernetic_industrial_desc: "Physical features and appendages are replaced with an array of mining tools."
+
+trait_cybernetic_agricultural: "Agricultural Framework"
+trait_cybernetic_agricultural_desc: "Physical features and appendages are replaced with an array of farming tools."
+
+trait_cybernetic_learning: "Synthetic Memory Implant"
+trait_cybernetic_learning_desc: "Synthetic memory implants augment organic memory formation and retention."
+
+trait_cybernetic_indoctrination: "Indoctrination Implant"
+trait_cybernetic_indoctrination_desc: "Indoctrination implants ensure adherence to traditional values and inspire a desire to promote group unity."
+
+trait_cybernetic_conductive: "Conductive Framework"
+trait_cybernetic_conductive_desc: "Physical features and appendages are replaced with superconductive mechanical components."
+
+trait_cybernetic_compact: "Compact Framework"
+trait_cybernetic_compact_desc: "Physical features and appendages are replaced with flexible joint and collapsible components."
