@@ -92,3 +92,19 @@ tech_cyro_bio_synth_interface = {
 		}
     }
 }
+
+# NOTE bionic mod compatibility
+tech_bio_synth_interface = {
+    cost = @tier2cost2
+    area = engineering
+    tier = 2
+	category = { industry }
+
+	prerequisites = { "tech_robomodding" "tech_robomodding_m" }
+
+	weight = @tier2weight1
+
+	potential = { always = no }
+
+	ai_weight = { weight = 0 }
+}
