@@ -7,6 +7,7 @@
 
 trait_cybernetic_emotional = {
     cost = 2
+    sorting_priority = 15
     icon = "gfx/interface/icons/traits/trait_robot_loyalty_circuits.dds"
 
     opposites = { "trait_cybernetic_neural" "trait_cybernetic_learning" "trait_cybernetic_indoctrination" }
@@ -34,6 +35,7 @@ trait_cybernetic_emotional = {
 
 trait_cybernetic_neural = {
     cost = 2
+    sorting_priority = 15
     icon = "gfx/interface/icons/traits/trait_robot_logic_engines.dds"
 
     opposites = { "trait_cybernetic_emotional" "trait_cybernetic_learning" "trait_cybernetic_indoctrination"}
@@ -63,6 +65,7 @@ trait_cybernetic_neural = {
 
 trait_cybernetic_learning = {
     cost = 2
+    sorting_priority = 15
     icon = "gfx/interface/icons/traits/trait_robot_learning_algorithms.dds"
 
     opposites = { "trait_cybernetic_emotional" "trait_cybernetic_neural" "trait_cybernetic_indoctrination" }
@@ -90,6 +93,7 @@ trait_cybernetic_learning = {
 
 trait_cybernetic_indoctrination = {
     cost = 2
+    sorting_priority = 15
     icon = "gfx/interface/icons/traits/trait_robot_propaganda_machines.dds"
 
     opposites = { "trait_cybernetic_emotional" "trait_cybernetic_neural" "trait_cybernetic_learning" }
@@ -121,9 +125,10 @@ trait_cybernetic_indoctrination = {
 
 trait_cybernetic_industrial = {
     cost = 2
+    sorting_priority = 15
     icon = "gfx/interface/icons/traits/trait_robot_power_drills.dds"
 
-    opposites = { "trait_cybernetic_agricultural" "trait_cybernetic_conductive" "trait_cybernetic_compact "}
+    opposites = { "trait_cybernetic_agricultural" "trait_cybernetic_conductive" "trait_cybernetic_compact"}
 
     initial = no
     randomized = no
@@ -148,6 +153,7 @@ trait_cybernetic_industrial = {
 
 trait_cybernetic_agricultural = {
     cost = 2
+    sorting_priority = 15
     icon = "gfx/interface/icons/traits/trait_robot_harvesters.dds"
 
     opposites = { "trait_cybernetic_industrial" "trait_cybernetic_conductive" "trait_cybernetic_compact" }
@@ -175,6 +181,7 @@ trait_cybernetic_agricultural = {
 
 trait_cybernetic_conductive = {
     cost = 2
+    sorting_priority = 15
     icon = "gfx/interface/icons/traits/trait_robot_superconductive.dds"
 
     opposites = { "trait_cybernetic_industrial" "trait_cybernetic_agricultural" "trait_cybernetic_compact" }
@@ -202,6 +209,7 @@ trait_cybernetic_conductive = {
 
 trait_cybernetic_compact = {
     cost = 2
+    sorting_priority = 15
     icon = "gfx/interface/icons/traits/trait_robot_double_jointed.dds"
 
     opposites = { "trait_cybernetic_industrial" "trait_cybernetic_agricultural" "trait_cybernetic_conductive" }

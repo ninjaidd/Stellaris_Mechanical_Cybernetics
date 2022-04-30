@@ -1,3 +1,5 @@
+# TODO icon
+
 tech_bio_synth_interface = {
     cost = @tier2cost2
     area = engineering
@@ -15,7 +17,8 @@ tech_bio_synth_interface = {
     
     potential = {
         NOT = { has_ethic = "ethic_gestalt_consciousness" }
-        has_ascention_perk = ap_the_flesh_is_weak
+		has_ascension_perk = ap_the_flesh_is_weak
+		has_country_flag = flesh_weakened
     }
     
     weight_modifier = {

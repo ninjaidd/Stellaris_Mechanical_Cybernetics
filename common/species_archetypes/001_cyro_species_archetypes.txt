@@ -1,3 +1,5 @@
+# NOTE for compatibility with bioasc mod
+
 BIONIC = {
     inherit_trait_points_from = ROBOT
     species_max_traits = 5
