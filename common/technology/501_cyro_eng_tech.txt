@@ -1,7 +1,5 @@
-# TODO icon
-
-tech_bio_synth_interface = {
-    cost = @tier2cost2
+tech_cyro_bio_synth_interface = {
+	cost = @tier2cost2
     area = engineering
     tier = 2
 	category = { industry }
@@ -11,7 +9,7 @@ tech_bio_synth_interface = {
     prereqfor_desc = {
 		hide_prereq_for_desc = component
 		custom = {
-			title = "tech_bio_synth_interface_UNLOCK"
+			title = "tech_cyro_bio_synth_interface_UNLOCK"
 		}
     }
     
@@ -19,6 +17,11 @@ tech_bio_synth_interface = {
         NOT = { has_ethic = "ethic_gestalt_consciousness" }
 		has_ascension_perk = ap_the_flesh_is_weak
 		has_country_flag = flesh_weakened
+		# NOTE bionic mod compatibility
+		NOR = {
+			can_research_technology = tech_bio_synth_interface
+			has_technology = tech_bio_synth_interface
+		}
     }
     
     weight_modifier = {

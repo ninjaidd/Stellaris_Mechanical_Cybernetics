@@ -1,12 +1,9 @@
-# TODO test opposites and costs
-# TODO test bionic load order compatibility
-
 ##########################################
 # Mental
 ##########################################
 
 trait_cybernetic_emotional = {
-    cost = 2
+    cost = 1
     sorting_priority = 15
     icon = "gfx/interface/icons/traits/trait_robot_loyalty_circuits.dds"
 
@@ -18,7 +15,7 @@ trait_cybernetic_emotional = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_bio_synth_interface
+            has_technology = tech_cyro_bio_synth_interface
         }
     }
 
@@ -26,7 +23,7 @@ trait_cybernetic_emotional = {
         has_trait = trait_cybernetic
     }
 
-	allowed_archetypes = { BIOLOGICAL LITHOID BIONIC }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
 
 	modifier = {
 		pop_happiness = 0.05
@@ -34,7 +31,7 @@ trait_cybernetic_emotional = {
 }
 
 trait_cybernetic_neural = {
-    cost = 2
+    cost = 1
     sorting_priority = 15
     icon = "gfx/interface/icons/traits/trait_robot_logic_engines.dds"
 
@@ -46,7 +43,7 @@ trait_cybernetic_neural = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_bio_synth_interface
+            has_technology = tech_cyro_bio_synth_interface
         }
     }
 
@@ -54,7 +51,7 @@ trait_cybernetic_neural = {
         has_trait = trait_cybernetic
     }
 
-	allowed_archetypes = { BIOLOGICAL LITHOID BIONIC }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
 
 	modifier = {
 		planet_jobs_society_research_produces_mult = 0.05
@@ -64,7 +61,7 @@ trait_cybernetic_neural = {
 }
 
 trait_cybernetic_learning = {
-    cost = 2
+    cost = 1
     sorting_priority = 15
     icon = "gfx/interface/icons/traits/trait_robot_learning_algorithms.dds"
 
@@ -76,7 +73,7 @@ trait_cybernetic_learning = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_bio_synth_interface
+            has_technology = tech_cyro_bio_synth_interface
         }
     }
 
@@ -84,7 +81,7 @@ trait_cybernetic_learning = {
         has_trait = trait_cybernetic
     }
 
-	allowed_archetypes = { BIOLOGICAL LITHOID BIONIC }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
 
 	modifier = {
 		species_leader_exp_gain = 0.15
@@ -92,7 +89,7 @@ trait_cybernetic_learning = {
 }
 
 trait_cybernetic_indoctrination = {
-    cost = 2
+    cost = 1
     sorting_priority = 15
     icon = "gfx/interface/icons/traits/trait_robot_propaganda_machines.dds"
 
@@ -104,7 +101,7 @@ trait_cybernetic_indoctrination = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_bio_synth_interface
+            has_technology = tech_cyro_bio_synth_interface
         }
     }
 
@@ -112,7 +109,7 @@ trait_cybernetic_indoctrination = {
         has_trait = trait_cybernetic
     }
 
-	allowed_archetypes = { BIOLOGICAL LITHOID BIONIC }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
 
 	modifier = {
 		planet_jobs_unity_produces_mult = 0.05
@@ -124,7 +121,7 @@ trait_cybernetic_indoctrination = {
 ##########################################
 
 trait_cybernetic_industrial = {
-    cost = 2
+    cost = 1
     sorting_priority = 15
     icon = "gfx/interface/icons/traits/trait_robot_power_drills.dds"
 
@@ -136,7 +133,7 @@ trait_cybernetic_industrial = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_bio_synth_interface
+            has_technology = tech_cyro_bio_synth_interface
         }
     }
 
@@ -152,7 +149,7 @@ trait_cybernetic_industrial = {
 }
 
 trait_cybernetic_agricultural = {
-    cost = 2
+    cost = 1
     sorting_priority = 15
     icon = "gfx/interface/icons/traits/trait_robot_harvesters.dds"
 
@@ -164,7 +161,7 @@ trait_cybernetic_agricultural = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_bio_synth_interface
+            has_technology = tech_cyro_bio_synth_interface
         }
     }
 
@@ -180,7 +177,7 @@ trait_cybernetic_agricultural = {
 }
 
 trait_cybernetic_conductive = {
-    cost = 2
+    cost = 1
     sorting_priority = 15
     icon = "gfx/interface/icons/traits/trait_robot_superconductive.dds"
 
@@ -192,7 +189,7 @@ trait_cybernetic_conductive = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_bio_synth_interface
+            has_technology = tech_cyro_bio_synth_interface
         }
     }
 
@@ -208,7 +205,7 @@ trait_cybernetic_conductive = {
 }
 
 trait_cybernetic_compact = {
-    cost = 2
+    cost = 1
     sorting_priority = 15
     icon = "gfx/interface/icons/traits/trait_robot_double_jointed.dds"
 
@@ -220,7 +217,7 @@ trait_cybernetic_compact = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_bio_synth_interface
+            has_technology = tech_cyro_bio_synth_interface
         }
     }
 
