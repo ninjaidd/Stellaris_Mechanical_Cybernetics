@@ -16,11 +16,26 @@ tech_bio_synth_interface_UNLOCK: "N/A"
 ## TRAITS
 ##########################################
 
-trait_cybernetic_emotional: "Emotional Regulator Implant"
-trait_cybernetic_emotional_desc: "Emotional regulator implants dampen the severity of complex emotions and provide a baseline of contentment."
+# Implants
 
-trait_cybernetic_neural: "Neural Amplification Implant"
+# Happiness, Leader EXP, Leader Cap, Unity or Consumer goods
+
+trait_cybernetic_emotional: "Emotion Regulator Implant"
+trait_cybernetic_emotional_desc: "Emotion regulator implants dampen the severity of complex emotions and provide a baseline of contentment."
+
+trait_cybernetic_neural: "Parallel Processor Implant" #"Neural Amplification Implant"
 trait_cybernetic_neural_desc: "Neural applification implants complement and enhance biological cognitive functions."
+
+trait_cybernetic_learning: "Absolute Recall Implant"
+trait_cybernetic_learning_desc: "Synthetic memory implants augment organic memory formation and retention."
+
+trait_cybernetic_indoctrination: "Indoctrination Implant"
+trait_cybernetic_indoctrination_desc: "Indoctrination implants ensure adherence to traditional values and inspire a desire to promote group unity."
+
+
+# Frameworks
+
+# Food, minerals, solar
 
 trait_cybernetic_industrial: "Industrial Framework"
 trait_cybernetic_industrial_desc: "Physical features and appendages are replaced with an array of mining tools."
@@ -28,14 +43,8 @@ trait_cybernetic_industrial_desc: "Physical features and appendages are replaced
 trait_cybernetic_agricultural: "Agricultural Framework"
 trait_cybernetic_agricultural_desc: "Physical features and appendages are replaced with an array of farming tools."
 
-trait_cybernetic_learning: "Synthetic Memory Implant"
-trait_cybernetic_learning_desc: "Synthetic memory implants augment organic memory formation and retention."
-
-trait_cybernetic_indoctrination: "Indoctrination Implant"
-trait_cybernetic_indoctrination_desc: "Indoctrination implants ensure adherence to traditional values and inspire a desire to promote group unity."
-
 trait_cybernetic_conductive: "Conductive Framework"
 trait_cybernetic_conductive_desc: "Physical features and appendages are replaced with superconductive mechanical components."
 
 trait_cybernetic_compact: "Compact Framework"
-trait_cybernetic_compact_desc: "Physical features and appendages are replaced with flexible joint and collapsible components."
+trait_cybernetic_compact_desc: "Physical features and appendages are replaced with flexible joints and collapsible components."
