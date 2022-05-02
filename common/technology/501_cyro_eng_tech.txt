@@ -1,10 +1,10 @@
 tech_cyro_bio_synth_interface = {
-	cost = @tier2cost2
+	cost = @tier2cost3
     area = engineering
     tier = 2
 	category = { industry }
     prerequisites = { "tech_genome_mapping" "tech_powered_exoskeletons" }
-    weight = @tier2weight1
+    weight = @tier2weight2
 
     prereqfor_desc = {
 		hide_prereq_for_desc = component
@@ -95,14 +95,14 @@ tech_cyro_bio_synth_interface = {
 
 # NOTE bionic mod compatibility
 tech_bio_synth_interface = {
-    cost = @tier2cost2
+    cost = @tier2cost3
     area = engineering
     tier = 2
 	category = { industry }
 
 	prerequisites = { "tech_robomodding" "tech_robomodding_m" }
 
-	weight = @tier2weight1
+	weight = @tier2weight2
 
 	potential = { always = no }
 
