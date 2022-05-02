@@ -43,23 +43,3 @@ trait_cybernetic_industrial_desc: "Appendages and/or physical features are repla
 
 trait_cybernetic_military: "Military Framework"
 trait_cybernetic_military_desc: "Appendages and/or physical features are replaced with weaponry and military grade materials."
-
-
-# Environmental
-
-trait_cybernetic_arctic: "Arctic Adaptation"
-trait_cybernetic_arctic_desc: "Thermal regulators and insulating materials allow for enhanced arctic survival."
-
-trait_cybernetic_desert: "Desert Adaptation"
-trait_cybernetic_desert_desc: "Fluid recyclers and atmospheric condensers allow for enhanced desert survival."
-
-trait_cybernetic_ocean: "Ocean Adaptation"
-trait_cybernetic_ocean_desc: "Aquatic filtration devices and advanced propulsion systems allow for enhanced ocean survival."
-
-trait_cybernetic_tomb: "Radiation Adaptation"
-trait_cybernetic_tomb_desc: "Radiation shield materials allow for enhanced survival in radioactive conditions."
-
- trait_cybernetic_arctic_tooltip: "Food, Energy and Mineral output on §YArctic§! worlds: §G+5%§!\nHabitability on non-§Frozen§! worlds: §R-30%§!"
- trait_cybernetic_desert_tooltip: "Food, Energy and Mineral output on §YDesert§! worlds: §G+5%§!\nHabitability on non-§Dry§! worlds: §R-30%§!"
- trait_cybernetic_ocean_tooltip: "Food, Energy and Mineral output on §YOcean§! worlds: §G+5%§!\nHabitability on non-§Wet§! worlds: §R-30%§!"
- trait_cybernetic_tomb_tooltip: "Food, Energy and Mineral output on §YTomb§! worlds: §G+5%§!\nHabitability on §Dry§!, §Frozen§! or §Wet§! worlds: §R-30%§!"
