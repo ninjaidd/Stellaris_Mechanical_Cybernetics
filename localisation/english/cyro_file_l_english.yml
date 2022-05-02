@@ -18,33 +18,48 @@ tech_bio_synth_interface_UNLOCK: "N/A"
 
 # Implants
 
-# Happiness, Leader EXP, Leader Cap, Unity or Consumer goods
+trait_cybernetic_combat: "Tactical Combat Implant"
+trait_cybernetic_combat_desc: "Modulating the fear response and enhancing threat assessment grants soldiers unwavering resolve and tactical superiority."
 
-trait_cybernetic_emotional: "Emotion Regulator Implant"
-trait_cybernetic_emotional_desc: "Emotion regulator implants dampen the severity of complex emotions and provide a baseline of contentment."
+trait_cybernetic_conform: "Synaptic Inhibitor Implant"
+trait_cybernetic_conform_desc: "Inhibiting and restructuring thought patterns ensures adherence to traditional values and inspires a desire to promote group unity."
 
-trait_cybernetic_neural: "Parallel Processor Implant" #"Neural Amplification Implant"
-trait_cybernetic_neural_desc: "Neural applification implants complement and enhance biological cognitive functions."
+trait_cybernetic_emotion: "Emotion Regulator Implant"
+trait_cybernetic_emotion_desc: "Emotion regulator implants dampen the severity of complex emotions and provide a baseline of contentment."
 
-trait_cybernetic_learning: "Absolute Recall Implant"
-trait_cybernetic_learning_desc: "Synthetic memory implants augment organic memory formation and retention."
-
-trait_cybernetic_indoctrination: "Indoctrination Implant"
-trait_cybernetic_indoctrination_desc: "Indoctrination implants ensure adherence to traditional values and inspire a desire to promote group unity."
-
+trait_cybernetic_processor: "Parallel Processor Implant"
+trait_cybernetic_processor_desc: "Neural net processors work in parallel with biological cognitive functions allowing for complete and total recall."
 
 # Frameworks
 
-# Food, minerals, solar
-
-trait_cybernetic_industrial: "Industrial Framework"
-trait_cybernetic_industrial_desc: "Physical features and appendages are replaced with an array of mining tools."
-
 trait_cybernetic_agricultural: "Agricultural Framework"
-trait_cybernetic_agricultural_desc: "Physical features and appendages are replaced with an array of farming tools."
-
-trait_cybernetic_conductive: "Conductive Framework"
-trait_cybernetic_conductive_desc: "Physical features and appendages are replaced with superconductive mechanical components."
+trait_cybernetic_agricultural_desc: "Appendages and/or physical features are replaced with an array of farming implements."
 
 trait_cybernetic_compact: "Compact Framework"
-trait_cybernetic_compact_desc: "Physical features and appendages are replaced with flexible joints and collapsible components."
+trait_cybernetic_compact_desc: "Appendages and/or physical features are replaced with flexible joints and collapsible components."
+
+trait_cybernetic_industrial: "Industrial Framework"
+trait_cybernetic_industrial_desc: "Appendages and/or physical features are replaced with mining tools and prospecting sensors."
+
+trait_cybernetic_military: "Military Framework"
+trait_cybernetic_military_desc: "Appendages and/or physical features are replaced with weaponry and military grade materials."
+
+
+# Environmental
+
+trait_cybernetic_arctic: "Arctic Adaptation"
+trait_cybernetic_arctic_desc: "Thermal regulators and insulating materials allow for enhanced arctic survival."
+
+trait_cybernetic_desert: "Desert Adaptation"
+trait_cybernetic_desert_desc: "Fluid recyclers and atmospheric condensers allow for enhanced desert survival."
+
+trait_cybernetic_ocean: "Ocean Adaptation"
+trait_cybernetic_ocean_desc: "Aquatic filtration devices and advanced propulsion systems allow for enhanced ocean survival."
+
+trait_cybernetic_tomb: "Radiation Adaptation"
+trait_cybernetic_tomb_desc: "Radiation shield materials allow for enhanced survival in radioactive conditions."
+
+ trait_cybernetic_arctic_tooltip: "Food, Energy and Mineral output on §YArctic§! worlds: §G+5%§!\nHabitability on non-§Frozen§! worlds: §R-30%§!"
+ trait_cybernetic_desert_tooltip: "Food, Energy and Mineral output on §YDesert§! worlds: §G+5%§!\nHabitability on non-§Dry§! worlds: §R-30%§!"
+ trait_cybernetic_ocean_tooltip: "Food, Energy and Mineral output on §YOcean§! worlds: §G+5%§!\nHabitability on non-§Wet§! worlds: §R-30%§!"
+ trait_cybernetic_tomb_tooltip: "Food, Energy and Mineral output on §YTomb§! worlds: §G+5%§!\nHabitability on §Dry§!, §Frozen§! or §Wet§! worlds: §R-30%§!"
