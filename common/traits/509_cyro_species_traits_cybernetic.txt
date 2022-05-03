@@ -15,12 +15,17 @@ trait_cybernetic_combat = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_cyro_bio_synth_interface
+            OR = {
+                has_technology = tech_bio_synth_interface
+                has_technology = tech_cyro_bio_synth_interface
+            }
+            NOT = { has_country_flag = bioasc_mod_enabled }
         }
     }
 
     species_possible_merge_add = {
         has_trait = trait_cybernetic
+        from = { NOT = { has_country_flag = bioasc_mod_enabled } }
     }
 
 	allowed_archetypes = { BIOLOGICAL LITHOID }
@@ -48,12 +53,17 @@ trait_cybernetic_conform = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_cyro_bio_synth_interface
+            OR = {
+                has_technology = tech_bio_synth_interface
+                has_technology = tech_cyro_bio_synth_interface
+            }
+            NOT = { has_country_flag = bioasc_mod_enabled }
         }
     }
 
     species_possible_merge_add = {
         has_trait = trait_cybernetic
+        from = { NOT = { has_country_flag = bioasc_mod_enabled } }
     }
 
 	allowed_archetypes = { BIOLOGICAL LITHOID }
@@ -77,12 +87,17 @@ trait_cybernetic_emotion = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_cyro_bio_synth_interface
+            OR = {
+                has_technology = tech_bio_synth_interface
+                has_technology = tech_cyro_bio_synth_interface
+            }
+            NOT = { has_country_flag = bioasc_mod_enabled }
         }
     }
 
     species_possible_merge_add = {
         has_trait = trait_cybernetic
+        from = { NOT = { has_country_flag = bioasc_mod_enabled } }
     }
 
 	allowed_archetypes = { BIOLOGICAL LITHOID }
@@ -106,12 +121,17 @@ trait_cybernetic_processor = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_cyro_bio_synth_interface
+            OR = {
+                has_technology = tech_bio_synth_interface
+                has_technology = tech_cyro_bio_synth_interface
+            }
+            NOT = { has_country_flag = bioasc_mod_enabled }
         }
     }
 
     species_possible_merge_add = {
         has_trait = trait_cybernetic
+        from = { NOT = { has_country_flag = bioasc_mod_enabled } }
     }
 
 	allowed_archetypes = { BIOLOGICAL LITHOID }
@@ -143,12 +163,17 @@ trait_cybernetic_agricultural = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_cyro_bio_synth_interface
+            OR = {
+                has_technology = tech_bio_synth_interface
+                has_technology = tech_cyro_bio_synth_interface
+            }
+            NOT = { has_country_flag = bioasc_mod_enabled }
         }
     }
 
     species_possible_merge_add = {
         has_trait = trait_cybernetic
+        from = { NOT = { has_country_flag = bioasc_mod_enabled } }
     }
 
 	allowed_archetypes = { BIOLOGICAL LITHOID }
@@ -175,12 +200,17 @@ trait_cybernetic_compact = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_cyro_bio_synth_interface
+            OR = {
+                has_technology = tech_bio_synth_interface
+                has_technology = tech_cyro_bio_synth_interface
+            }
+            NOT = { has_country_flag = bioasc_mod_enabled }
         }
     }
 
     species_possible_merge_add = {
         has_trait = trait_cybernetic
+        from = { NOT = { has_country_flag = bioasc_mod_enabled } }
     }
 
 	allowed_archetypes = { BIOLOGICAL LITHOID }
@@ -203,12 +233,17 @@ trait_cybernetic_industrial = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_cyro_bio_synth_interface
+            OR = {
+                has_technology = tech_bio_synth_interface
+                has_technology = tech_cyro_bio_synth_interface
+            }
+            NOT = { has_country_flag = bioasc_mod_enabled }
         }
     }
 
     species_possible_merge_add = {
         has_trait = trait_cybernetic
+        from = { NOT = { has_country_flag = bioasc_mod_enabled } }
     }
 
 	allowed_archetypes = { BIOLOGICAL LITHOID }
@@ -235,12 +270,17 @@ trait_cybernetic_military = {
     species_potential_add = {
         has_trait = trait_cybernetic
         from = {
-            has_technology = tech_cyro_bio_synth_interface
+            OR = {
+                has_technology = tech_bio_synth_interface
+                has_technology = tech_cyro_bio_synth_interface
+            }
+            NOT = { has_country_flag = bioasc_mod_enabled }
         }
     }
 
     species_possible_merge_add = {
         has_trait = trait_cybernetic
+        from = { NOT = { has_country_flag = bioasc_mod_enabled } }
     }
 
 	allowed_archetypes = { BIOLOGICAL LITHOID }
