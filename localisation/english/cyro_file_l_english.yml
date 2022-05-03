@@ -8,10 +8,6 @@ tech_cyro_bio_synth_interface: "Bio-Synthetic Interfacing"
 tech_cyro_bio_synth_interface_desc: "Advances in engineering and biology allow $trait_cybernetic$ species to integrate advanced mechanical components and enhance their cognitive processes with sythetic circuitry."
 tech_cyro_bio_synth_interface_UNLOCK: "§HUnlocks:§! Cybernetic Traits"
 
-tech_bio_synth_interface: "N/A"
-tech_bio_synth_interface_desc: "N/A"
-tech_bio_synth_interface_UNLOCK: "N/A"
-
 ##########################################
 ## TRAITS
 ##########################################
