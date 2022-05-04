@@ -17,8 +17,9 @@ tech_bio_synth_interface = {
         NOT = { has_ethic = "ethic_gestalt_consciousness" }
 		has_ascension_perk = ap_the_flesh_is_weak
 		has_country_flag = flesh_weakened
-		# NOTE for compatibility
+		# COMPAT Bionic / Previous version
 		NOT = { has_technology = tech_cyro_bio_synth_interface }
+		# #
     }
     
     weight_modifier = {
@@ -53,7 +54,7 @@ tech_bio_synth_interface = {
 		}
 		modifier = {
 			factor = 0
-			# NOTE for compatibility
+			# COMPAT Bionic / Previous version
 			has_technology = tech_cyro_bio_synth_interface
 		}
     }
@@ -95,7 +96,7 @@ tech_bio_synth_interface = {
     }
 }
 
-# NOTE needed for compatibility
+# COMPAT Bionic / Previous version
 tech_cyro_bio_synth_interface = {
 	cost = @tier2cost3
     area = engineering
