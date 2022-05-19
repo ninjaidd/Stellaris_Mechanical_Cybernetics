@@ -11,7 +11,8 @@ tech_bio_synth_interface = {
     prereqfor_desc = {
 		hide_prereq_for_desc = component
 		custom = {
-			title = "tech_bio_synth_interface_UNLOCK"
+			title = "TECH_UNLOCK_BIO_SYNTH_INTERFACE_TITLE"
+			desc = "TECH_UNLOCK_BIO_SYNTH_INTERFACE_DESC"
 		}
     }
     
@@ -111,7 +112,8 @@ tech_cyro_bio_synth_interface = {
     prereqfor_desc = {
 		hide_prereq_for_desc = component
 		custom = {
-			title = "tech_bio_synth_interface_UNLOCK"
+			title = "TECH_UNLOCK_BIO_SYNTH_INTERFACE_TITLE"
+			desc = "TECH_UNLOCK_BIO_SYNTH_INTERFACE_DESC"
 		}
     }
     

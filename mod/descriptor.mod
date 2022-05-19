@@ -3,5 +3,5 @@ tags={
 	"Species"
 }
 name="Mechanical Traits for Cybernetic Species (3.4)"
-supported_version="3.4.2"
+supported_version="3.4.3"
 remote_file_id="2802583591"

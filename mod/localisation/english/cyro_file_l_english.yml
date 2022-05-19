@@ -5,8 +5,10 @@
 ##########################################
 
 tech_bio_synth_interface: "Bio-Synthetic Interfacing"
-tech_bio_synth_interface_desc: "Advances in engineering and biology allow $trait_cybernetic$ species to integrate advanced mechanical components and enhance their cognitive processes with sythetic circuitry."
-tech_bio_synth_interface_UNLOCK: "§HUnlocks:§! Cybernetic Traits"
+tech_bio_synth_interface_desc: "Advances in engineering and biology allow §Y$trait_cybernetic$§! species to integrate advanced mechanical components and enhance their cognitive processes with synthetic circuitry."
+
+TECH_UNLOCK_BIO_SYNTH_INTERFACE_TITLE: "§HUnlocks:§! Cybernetic Traits"
+TECH_UNLOCK_BIO_SYNTH_INTERFACE_DESC: "§HCybernetic Traits§!\nAdds new traits that can be applied through species modification exclusively to species with the §Y$trait_cybernetic$§! trait ."
 
 tech_cyro_bio_synth_interface: "$tech_bio_synth_interface$"
 tech_cyro_bio_synth_interface_desc: "$tech_bio_synth_interface_desc$"

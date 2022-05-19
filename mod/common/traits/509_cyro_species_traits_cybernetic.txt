@@ -38,7 +38,7 @@ trait_cybernetic_combat = {
 	}
 
     slave_cost = {
-		energy = 50
+		energy = 500
 	}
 }
 
@@ -74,6 +74,10 @@ trait_cybernetic_conform = {
 		pop_government_ethic_attraction = 0.15
         species_empire_size_mult = -0.05
 	}
+
+    slave_cost = {
+		energy = 500
+	}
 }
 
 trait_cybernetic_emotion = {
@@ -107,6 +111,10 @@ trait_cybernetic_emotion = {
 	modifier = {
         pop_happiness = 0.05
         planet_jobs_unity_produces_mult = 0.05
+	}
+
+    slave_cost = {
+		energy = 500
 	}
 }
 
@@ -144,7 +152,7 @@ trait_cybernetic_processor = {
 	}
 
     slave_cost = {
-		energy = 50
+		energy = 500
 	}
 }
 
@@ -185,7 +193,7 @@ trait_cybernetic_agricultural = {
 	}
 
     slave_cost = {
-		energy = 50
+		energy = 500
 	}
 }
 
@@ -219,6 +227,10 @@ trait_cybernetic_compact = {
 
 	modifier = {
 		pop_housing_usage_mult = -0.05
+	}
+
+    slave_cost = {
+		energy = 500
 	}
 }
 
@@ -257,6 +269,10 @@ trait_cybernetic_industrial = {
     slave_cost = {
 		energy = 50
 	}
+
+    slave_cost = {
+		energy = 500
+	}
 }
 
 trait_cybernetic_military = {
@@ -290,5 +306,9 @@ trait_cybernetic_military = {
 	modifier = {
         army_health = 0.1
         army_damage_mult = 0.05
+	}
+
+    slave_cost = {
+		energy = 500
 	}
 }
