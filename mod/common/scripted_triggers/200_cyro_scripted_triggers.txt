@@ -1,0 +1,19 @@
+is_cyro_active = {
+	always = yes
+}
+
+has_cybernetic_combat = {
+	has_trait = trait_cybernetic_combat
+}
+
+has_cybernetic_conform = {
+	has_trait = trait_cybernetic_conform
+}
+
+has_cybernetic_emotion = {
+	has_trait = trait_cybernetic_emotion
+}
+
+has_cybernetic_processor = {
+	has_trait = trait_cybernetic_processor
+}
